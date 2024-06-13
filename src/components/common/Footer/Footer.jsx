@@ -10,10 +10,8 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer__container">
         <div className="footer__wrapper-left">
-          <h3 className="footer__title"> &copy; 2024 ГГКТТИД</h3>
-          <p className="footer__decription">
-            г.Гродно, ул. Максима Горького, 86
-          </p>
+          <h3 className="footer__title"> &copy; 2024 Zoo Epress</h3>
+          <p className="footer__decription"></p>
         </div>
 
         <div className="footer__wrapper-middle">
