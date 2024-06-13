@@ -21,6 +21,7 @@
 	margin-top: 10px;
 	display: block;
 	text-transform: uppercase;
+	color: #fff;
 }
 
 .auth__input {
@@ -62,5 +63,30 @@
 .auth__img {
 	width: 400px;
 	height: 450px;
+	/* position: absolute;
+	right: 150px;
+	top: 0;
+	top:-100px;
+	transform: rotate(45deg); */
+}
+
+
+@media (max-width: 455px) {
+	.auth__block{
+		flex-direction: column;
+	}
+	.auth__form{
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.auth__img {
+		width: 100px;
+		height: 150px;
+		padding-bottom: 200px;
+		display: block;
+		margin: 0 auto;
+	}
+
 
 }

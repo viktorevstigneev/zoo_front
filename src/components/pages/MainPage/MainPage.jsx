@@ -55,7 +55,7 @@ const MainPage = () => {
             </h2>
           </div>
 
-          <img src={catenergy} alt="" srcset="" />
+          <img className="carEnergy" src={catenergy} alt="" srcset="" />
         </div>
 
         <hr className="delimentr" />

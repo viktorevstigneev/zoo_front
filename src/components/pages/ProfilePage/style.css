@@ -58,3 +58,14 @@
 	border: 1px solid white;
 	padding: 0 10px;
 }
+
+
+@media (max-width: 450px) {
+	.profile__wrapper{
+		flex-direction: column;
+	}
+
+	.profile__title{
+		margin-top: 170px;
+	}
+}

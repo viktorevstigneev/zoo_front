@@ -13,7 +13,7 @@
 .cart__title {
 	color: white;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 140px;
 }
 
 .cart__content {
@@ -174,4 +174,26 @@
 	display: block;
 	border-radius: 10px;
 	margin-top: 10px;
+}
+
+
+@media (max-width: 450px) {
+
+	.cart__summary{
+		font-size: 14px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.cart__bottom{
+		flex-direction: column;
+		justify-content: center;
+	}
+	.pay__wrapper{
+		flex-direction: column;
+	}
+
+	.cart__button{
+		margin: 0;
+	}
 }

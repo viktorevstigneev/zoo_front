@@ -302,3 +302,25 @@
 	height: fit-content;
 	margin-left: 10px;
 }
+
+
+@media (max-width: 450px) {
+	.Clothes__top{
+		top: 123px;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.clothes__title{
+		margin: 0;
+	}
+
+	.clothes__content{
+		margin: 100px;
+	}
+
+.filter__price{
+	display: flex;
+	flex-direction: column;
+}
+}

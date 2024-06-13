@@ -65,4 +65,9 @@
 .footer__title{
 	font-size: 14px;
 }
+
+.varOplaty{
+	width: 50px;
+	height: 50px !important;
+}
 }

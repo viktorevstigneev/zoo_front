@@ -16,7 +16,7 @@ const Footer = () => {
 
         <div className="footer__wrapper-middle">
           <h3 className="footer__title">Способы оплаты</h3>
-          <img src={varianOplay} alt="" style={{ height: "90px" }} />
+          <img src={varianOplay} className="varOplaty" alt="" style={{ height: "90px" }} />
         </div>
 
         <div className="footer__wrapper-middle">

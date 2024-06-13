@@ -139,3 +139,33 @@
 	color: #ffffff;
 	cursor: pointer;
 }
+
+
+@media (max-width: 450px) {
+
+	.carEnergy{
+		width: 150px;
+		height: 150px;
+	}
+
+	.main__head{
+		margin-top: 150px;
+	}
+	.main_title{
+		font-size: 16px;
+	}
+
+	.main_subtitle{
+		font-size: 14px;
+	}
+
+	.sl_img{
+		/* height: 150px; */
+		width: 350px;
+	}
+
+	.main_card__img{
+		width: 100px;
+		height: 150px;
+	}
+}
